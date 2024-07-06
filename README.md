@@ -28,6 +28,19 @@ Checking Phishing uses Python libraries for running properly :
 1. Create directory "files" in folder "Checking_Phishing"
 2. Copy phishing file in CSV format to directory "files"
 
+## Directory Hierarchy
+
+```
+%PATH%\Checking_Phishing
+│   requirements.txt
+│
+├───files
+│       urls.csv
+│
+└───programs
+        Checking Phishing.ipynb
+```
+
 ## Installation
 
 Checking Phishing requires [Python v3.10.6](https://www.python.org/downloads/release/python-3123/) to run.
